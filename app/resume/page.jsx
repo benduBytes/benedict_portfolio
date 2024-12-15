@@ -64,7 +64,7 @@ const experience = {
       company: "Andhra Pradesh State Development Corporation",
       position: "Data Analyst",
       duration: "Feb 2024 - May 2024",
-      certificate: '/assets/resume/Ads.png'
+      certificate: '/assets/resume/ADS.png'
     },
     {
       company: "InTrain Tech",
