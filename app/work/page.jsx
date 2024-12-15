@@ -14,16 +14,16 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
 
 
-const URL1= "";
-const URL2 = "";
+const URL1= "https://drive.google.com/file/d/1IHd7iEtmK1pnaZyxb7TJqahBPnh6d1lc/view?usp=sharing";
+const URL2 = "https://drive.google.com/file/d/1H5DSvRNQbj1emvwLj5p7vXprPvSE1vyN/view?usp=sharing";
 const URL3 = "";
 const URL4 = ""
 const URL5 = ""
 
 
 const GITHUB1 = "https://github.com/benduBytes/Food_Delivery_App_SWIEE"
-const GITHUB2 = "https://github.com/benduBytes/Bluetooth-Serial-Terminal-AndroidApp"
-const GITHUB3 = ""
+const GITHUB2 = ""
+const GITHUB3 = "https://github.com/benduBytes/Bluetooth-Serial-Terminal-AndroidApp"
 const GITHUB4 = "https://github.com/benduBytes/Pneumonia-Detection-Using-Deep-Learning"
 const GITHUB5 = "https://github.com/benduBytes/Driver-Drowsiness-Alert-System"
 
@@ -43,8 +43,8 @@ const projects = [
     title: 'Recipe Finder System',
     description: "Developed a recipe generation feature that allows users to easily create personalized recipes based on their preferences, streamlining the cooking experience. Integrated social sharing and commenting functionalities, enabling users to engage with the community by sharing their recipes, discovering new ones.",
     image: '/assets/work/RecipeGeneratorSystem.png',
-    live: `${URL3}`,
-    github: `${GITHUB3}`,
+    live: `${URL2}`,
+    github: `${GITHUB2}`,
   },
   {
     num: '03',
@@ -52,8 +52,8 @@ const projects = [
     title: 'Bluetooth Serial Terminal',
     description: "Developed a mobile app for seamless Arduino communication, featuring real-time moisture-based motor control to optimize irrigation. The app features programmable buttons, allowing users to easily control the system, and includes a prompt window for real-time data visualization and command execution.",
     image: '/assets/work/BluetoothTerminal.png',
-    live: `${URL2}`,
-    github: `${GITHUB2}`,
+    live: `${URL3}`,
+    github: `${GITHUB3}`,
   },
   {
     num: '04',

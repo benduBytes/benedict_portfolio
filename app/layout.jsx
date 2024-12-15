@@ -14,12 +14,6 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Benedict Paul | Developer",
   description: "Welcome to my portfolio website!",
-  /*
-  icons: {
-    icon: "/BenedictPortfolioLogo.png", // Path to your favicon in the public directory
-    apple: "/BenedictPortfolioLogo.png", // Optional: Icon for Apple devices
-  },
-  */
 };
 
 export default function RootLayout({ children }) {
