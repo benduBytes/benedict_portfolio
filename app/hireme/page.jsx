@@ -98,7 +98,7 @@ const HireMe = () => {
                     <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl" onSubmit={submitForm}>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <Input type="text" name="name" placeholder="Full Name" value={formData.name} onChange={handleChange} />
-                            <Input type="text" name="companyname" placeholder="Comapny" value={formData.companyname} onChange={handleChange} />
+                            <Input type="text" name="companyname" placeholder="Company" value={formData.companyname} onChange={handleChange} />
                             <Input type="email" name="email" placeholder="Email address" value={formData.email} onChange={handleChange} />
                             <Input type="tel" name="phone" placeholder="Phone number" value={formData.phone} onChange={handleChange} />
                         </div>
